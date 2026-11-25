@@ -4,8 +4,8 @@ Welcome to my portfolio documentation for my Wazuh SOC Home Lab! This repository
 
 ---
 
-## 🛠️ Lab Architecture & Components
-* **SIEM / XDR Platform:** Wazuh Server (deployed on-premise / virtual machine)
+## Lab Architecture & Components
+* **SIEM / XDR Platform:** Wazuh Server (deployed on virtual machine)
 * **Endpoints Monitored:** 
   * Windows Virtual Machine (Endpoint Telemetry & Security Logs)
   * Linux Virtual Machine (Syslog, FIM, & Active Response)
@@ -17,6 +17,18 @@ Welcome to my portfolio documentation for my Wazuh SOC Home Lab! This repository
   * End-to-End Threat Investigation & Reporting
 
 ---
+
+## Skills Learned
+- Advanced understanding of SIEM concepts and practical application.
+- Proficiency in analyzing and interpreting network logs.
+- Ability to generate and recognize attack signatures and patterns.
+- Enhanced knowledge of network protocols and security vulnerabilities.
+- Development of critical thinking and problem-solving skills in cybersecurity.
+
+## Tools Used
+- Security Information and Event Management (SIEM) system for log ingestion and analysis.
+- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
+- Telemetry generation tools to create realistic network traffic and attack scenarios.
 
 ## 📊 Deliverables & Highlights
 
