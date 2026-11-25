@@ -1,4 +1,4 @@
-# On-Premise Wazuh SIEM & XDR Lab
+# Wazuh SIEM & XDR SOC Home Lab
 
 Welcome to my portfolio documentation for my Wazuh SOC Home Lab! This repository chronicles the deployment, configuration, and practical investigation workflows performed inside an on-premise Security Operations Center (SOC) lab environment.
 
