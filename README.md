@@ -16,8 +16,6 @@ Welcome to my portfolio documentation for my Wazuh SOC Home Lab! This repository
   * Automated Remediation via Wazuh Active Response
   * End-to-End Threat Investigation & Reporting
 
----
-
 ## Skills Learned
 - Advanced understanding of SIEM concepts and practical application.
 - Proficiency in analyzing and interpreting network logs.
