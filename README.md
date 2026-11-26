@@ -1,8 +1,8 @@
-# Wazuh SOC Home lab
+# Wazuh SOC Home Lab
 
-Welcome to my portfolio documentation for my Wazuh SOC Home lab! This repository chronicles the deployment, configuration, and practical investigation workflows performed inside an on-premise Security Operations Center (SOC) lab environment.
+## Introduction
 
-## 1. Architecture
+## Lab Architecture
 
 - **Hypervisor:** VMware Workstation Pro
 - **SIEM / XDR Server:** Ubuntu Server VM running Wazuh (Manager, Indexer, and Dashboard)
@@ -10,7 +10,7 @@ Welcome to my portfolio documentation for my Wazuh SOC Home lab! This repository
   
 ![Lab Architecture](lab-architecture.png)
 
-## 2. Detections & Telemetry Tuning
+## Detections & Telemetry Tuning
 
 - **Telemetry Sources:** Windows Sysmon process/network/file events, authentication logs, and Wazuh File Integrity Monitoring (FIM) on critical paths.
 - **Custom Detection Logic:** Added tailored Wazuh rules to flag suspicious command-line activity, unexpected persistence/file changes, or repeated authentication failures.
