@@ -8,7 +8,7 @@ Welcome to my portfolio documentation for my Wazuh SOC Home lab! This repository
 - **SIEM / XDR Server:** Ubuntu Server VM running Wazuh (Manager, Indexer, and Dashboard)
 - **Monitored Endpoints:** Windows and Linux virtual machines enrolled with Wazuh agents and Sysmon/host telemetry
   
-*(Insert architecture diagram here: `![Lab Architecture](docs/architecture-diagram.png)`)*
+![Lab Architecture](lab-architecture.png)
 
 ## 2. Detections & Telemetry Tuning
 
