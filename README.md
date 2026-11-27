@@ -12,10 +12,16 @@ Also included is my own built 3-panel SOC Dashboard detailing Failed Windows Log
 - **Monitored Endpoints:** Windows and Linux virtual machines enrolled with Wazuh agents and Sysmon/host telemetry
   
 ![Lab Architecture](lab-architecture.png)
+*Ref 1: Network Diagram*
 
-## Wazuh Endpoints & Dashboard 
+## 📊 Wazuh Endpoints & Dashboard 
+![Wazuh Endpoints](wazuh-endpoints.png)
+*Ref 2: Endpoints*
 
-## 📊 Generating & Reading Telemetry
+![Wazuh Dashboard](wazuh-dashboard.png)
+*Ref 3: Dashboard*
+
+## Generating & Reading Telemetry
 
 - **Telemetry Sources:** Windows Security Events, Linux SSH, and File Integrity Monitoring (FIM).
 
