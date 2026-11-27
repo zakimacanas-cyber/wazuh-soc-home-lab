@@ -6,7 +6,6 @@ I built this SIEM lab environment to practice and familiarize myself with a SOC 
 Also included is my own built 3-panel SOC Dashboard detailing Failed Windows Logons, Linux Failed SSH Authentication Activity and Windows Accounts Changes.  
 
 ## 🏛 Lab Architecture
-
 - **Hypervisor:** VMware Workstation Pro
 - **SIEM / XDR Server:** Ubuntu Server VM running Wazuh (Manager, Indexer, and Dashboard)
 - **Monitored Endpoints:** Windows and Linux virtual machines enrolled with Wazuh agents and Sysmon/host telemetry
@@ -15,22 +14,45 @@ Also included is my own built 3-panel SOC Dashboard detailing Failed Windows Log
 *Ref 1: Network Diagram*
 
 ## 📊 Wazuh Endpoints & Dashboard 
+
+ My active Windows and Linux endpoints:
+  - ZAKI-Windows - Agent 001
+  - ZAKI-Linux - Agent 002
+
 ![Wazuh Endpoints](wazuh-endpoints.png)
 *Ref 2: Endpoints*
+
+ My centralized SOC dashboard containing:
+  - Failed Windows Logon – Metric visualization
+  - Windows Account Changes Over Time – Line visualization
+  - Linux Failed SSH Authentication Activity – Data table
 
 ![Wazuh Dashboard](wazuh-dashboard.png)
 *Ref 3: Dashboard*
 
-## Generating & Reading Telemetry
+## 🔎 Generating & Reading Telemetry
+**1. Windows Security Events**
+- Generated Windows account management events from the Windows 10 endpoint by creating, modifying, and deleting a local user account.
+- Security events investigated included:
+  - Event ID 4720 – User account enabled or created
+  - Event ID 4732 – Member added to a security-enabled local group
+  - Event ID 4726 – User account deleted
+- Verified the corresponding telemetry in the Wazuh Dashboard and correlated the Windows Event IDs with their security significance.
 
-- **Telemetry Sources:** Windows Security Events, Linux SSH, and File Integrity Monitoring (FIM).
+**2. Linux SSH**
+- Generated SSH authentication activity between the Windows 10 endpoint and Ubuntu server.
+- Activities included:
+  - Failed SSH authentication using the fakeuser account.
+  - Successful SSH authentication using the zaki account.
+  - Executed commands within the authenticated SSH session.
+  - Investigated SSH session tracking and session identifiers.
+- Searched Wazuh for:
+  - fakeuser
+  - zaki AND accepted
+  - zaki AND "ip a"
+- Verified the corresponding authentication and session activity in Wazuh.
 
-
-## Custom Detection Rule
-
-
-## Active Response
-
+---
 
 ### Skills Learned
 
