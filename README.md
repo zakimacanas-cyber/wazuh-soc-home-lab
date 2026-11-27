@@ -50,6 +50,7 @@ Also included is my own built 3-panel SOC Dashboard detailing Failed Windows Log
 ![Event ID 4726](eventID-4726.png)
 *Ref 6: Event ID 4726*
 
+
 **2. Linux SSH**
 - Generated SSH authentication activity between the Windows 10 endpoint and Ubuntu server.
 - Activities included:
@@ -63,6 +64,17 @@ Also included is my own built 3-panel SOC Dashboard detailing Failed Windows Log
   - zaki AND "ip a"
 - Verified the corresponding authentication and session activity in Wazuh.
 
+![SSH Fakeuser](ssh-fakeuser.png)
+*Ref 7: fakeuser*
+
+![SSH Accepted](ssh-accepted.png)
+*Ref 8: zaki AND accepted*
+
+![SSH ip a](ssh-ip-a.png)
+*Ref 9: zaki AND "ip-a"*
+
+![SSH Session](ssh-session.png)
+*Ref 10: zaki AND session*
 
 ---
 
@@ -70,6 +82,7 @@ Also included is my own built 3-panel SOC Dashboard detailing Failed Windows Log
 
 - Advanced understanding of SIEM concepts and practical application.
 - Ability to generate and read telemetry from multi-OS endpoints.
-- 
-- 
+- Windows Event ID analysis
+- Linux SSH authentication monitoring
+- Endpoint security monitoring
 
