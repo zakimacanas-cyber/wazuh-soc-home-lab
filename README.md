@@ -62,6 +62,7 @@ Also included is my own built 3-panel SOC Dashboard detailing Failed Windows Log
   - fakeuser
   - zaki AND accepted
   - zaki AND "ip a"
+  - zaki AND session
 - Verified the corresponding authentication and session activity in Wazuh.
 
 ![SSH Fakeuser](ssh-fakeuser.png)
@@ -76,9 +77,7 @@ Also included is my own built 3-panel SOC Dashboard detailing Failed Windows Log
 ![SSH Session](ssh-session.png)
 *Ref 10: zaki AND session*
 
----
-
-### Skills Learned
+## 🎓 Skills Learned
 
 - Advanced understanding of SIEM concepts and practical application.
 - Ability to generate and read telemetry from multi-OS endpoints.
